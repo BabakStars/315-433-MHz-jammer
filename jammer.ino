@@ -38,6 +38,7 @@ void setup() {
   Wire.begin();
   lcd.init();
   lcd.clear();
+  lcd.backlight();
   Serial.begin(9600);
   pinMode(3,OUTPUT);
   pinMode(5,OUTPUT);
